@@ -41,6 +41,7 @@ class UudController extends Controller
          $request->validate([
              
              'bab' => 'required',
+             'judul' => 'required',
              'pasal' => 'required',
              'ayat' => 'required',
              'isi' => 'required',
