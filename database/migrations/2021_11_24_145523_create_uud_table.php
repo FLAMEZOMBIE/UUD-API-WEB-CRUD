@@ -16,6 +16,7 @@ class CreateUudTable extends Migration
         Schema::create('uud', function (Blueprint $table) {
             $table->id();
             $table->text('bab');
+            $table->text('judul');
             $table->text('pasal');
             $table->text('ayat');
             $table->text('isi');

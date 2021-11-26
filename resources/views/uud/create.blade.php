@@ -35,6 +35,12 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
+                <strong>judul:</strong>
+                <input type="text" name="judul" class="form-control" placeholder="Judul-">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
                 <strong>Pasal:</strong>
                 <textarea class="form-control" name="pasal" placeholder="Pasal-"></textarea>
             </div>

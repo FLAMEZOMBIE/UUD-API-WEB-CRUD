@@ -29,14 +29,16 @@
     <table class="table table-bordered" style="text-align: center">
         <tr style="text-align: center">
             <th style="text-align: center" width="100px">Bab</th>
+            <th style="text-align: center" width="100px">judul</th>
             <th style="text-align: center" width="100px">Pasal</th>
             <th style="text-align: center" width="100px">Ayat</th>
-            <th style="text-align: center" width="250px">Isi</th>
+            <th style="text-align: center" width="200px">Isi</th>
             <th style="text-align: center" width="300px">Action</th>
         </tr>
         @foreach ($uuds as $uud)
         <tr>
             <td>{{ $uud->bab }}</td>
+            <td>{{ $uud->judul }}</td>
             <td>{{ $uud->pasal }}</td>
             <td>{{ $uud->ayat }}</td>
             <td>{{ $uud->isi }}</td>

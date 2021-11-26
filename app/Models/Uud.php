@@ -15,6 +15,7 @@ class Uud extends Model
     protected $table = "uud";
     protected $fillable = [
         'bab',
+        'judul',
         'pasal', 
         'ayat', 
         'isi', 

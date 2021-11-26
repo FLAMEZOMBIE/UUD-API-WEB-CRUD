@@ -36,6 +36,12 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
+                    <strong>Judul:</strong>
+                    <input type="text" name="judul" value="{{ $uud->judul }}" class="form-control" placeholder="Judul">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
                     <strong>Pasal:</strong>
                     <textarea class="form-control" name="pasal" placeholder="Pasal">{{ $uud->pasal }}</textarea>
                 </div>

@@ -39,6 +39,7 @@ class UudWebController extends Controller
     {
         $request->validate([
             'bab' => 'required',
+            'judul' => 'required',
             'pasal' => 'required',
             'ayat' => 'required',
             'isi' => 'required',
@@ -83,6 +84,7 @@ class UudWebController extends Controller
     {
         $request->validate([
             'bab' => 'required',
+            'judul' => 'required',
             'pasal' => 'required',
             'ayat' => 'required',
             'isi' => 'required',
