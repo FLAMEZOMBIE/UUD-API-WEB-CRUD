@@ -14,10 +14,9 @@ class UudWebController extends Controller
      */
     public function index()
     {
-        $uuds = Uud::latest()->paginate(5);
+        $uuds = Uud::oldest()->paginate(1000);
     
-        return view('uud.index',compact('uuds'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+        return view('uud.index',compact('uuds'));
     }
      
     /**

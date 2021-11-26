@@ -31,25 +31,25 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Bab:</strong>
-                    <input type="text" name="bab" value="{{ $uud->name }}" class="form-control" placeholder="Name">
+                    <input type="text" name="bab" value="{{ $uud->bab }}" class="form-control" placeholder="Bab">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Pasal:</strong>
-                    <textarea class="form-control" name="pasal" placeholder="Detail">{{ $uud->detail }}</textarea>
+                    <textarea class="form-control" name="pasal" placeholder="Pasal">{{ $uud->pasal }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Ayat:</strong>
-                    <input type="text" name="ayat" value="{{ $uud->name }}" class="form-control" placeholder="Name">
+                    <input type="text" name="ayat" value="{{ $uud->ayat }}" class="form-control" placeholder="Ayat">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Isi:</strong>
-                    <textarea class="form-control" style="height:150px" name="Isi" placeholder="Detail">{{ $uud->detail }}</textarea>
+                    <textarea class="form-control" style="height:150px" name="isi" placeholder="Isi">{{ $uud->isi }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

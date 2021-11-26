@@ -42,7 +42,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Ayat:</strong>
-                <input type="text" name="name" class="form-control" placeholder="Ayat-">
+                <input type="text" name="ayat" class="form-control" placeholder="Ayat-">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
